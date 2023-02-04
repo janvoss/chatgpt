@@ -9,6 +9,8 @@ output: html_document
 
 # Was ist Chat GPT?
 
+Definition
+
 # Riskant: Einarbeiten ins Thema
 
 # Anhaltspunkte für eigene Recherche
