@@ -3,18 +3,26 @@ title: "Chat GPT"
 author: "Prof. Dr. Jan S. Voßwinkel"
 date: "4 2 2023"
 output: html_document
+lang: de
 ---
 
 # Einleitung
 
 # Was ist Chat GPT?
 
-Definition
+Die Antwort der KI selbst: 
+
+> "ChatGPT ist ein maschinelles Sprachmodell, das von OpenAI entwickelt wurde. Es nutzt moderne künstliche Intelligenz und maschinelles Lernen, um auf menschliche Texteingaben zu antworten. ChatGPT wurde auf einer großen Menge an menschlicher Sprache trainiert und kann auf eine Vielzahl von Themen und Fragen antworten, darunter allgemeine Wissensfragen, Übersetzungen, Literaturrecherche und vieles mehr. Es wird häufig in Chatbots, digitalen Assistenten und anderen Anwendungen eingesetzt, um menschlichen Benutzern schnelle und präzise Antworten zu liefern."
+
 
 # Riskant: Einarbeiten ins Thema
+
+# Riskant: Produzieren von Texten
 
 # Anhaltspunkte für eigene Recherche
 
 # Strukturieren von Projekten/Texten
 
 # Generieren von Code (R)
+
+# Fazit und Ausblick
