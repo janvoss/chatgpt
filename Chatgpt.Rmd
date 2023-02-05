@@ -1,12 +1,51 @@
 ---
 title: "Chat GPT"
-author: "Prof. Dr. Jan S. Voßwinkel"
-date: "4 2 2023"
-output: html_document
-lang: de
+author: "Jan S. Voßwinkel"
+#date: "4 2 2023"
+output:
+  bookdown::gitbook:
+    config:
+      sharing: no
+    number_sections: yes
 ---
 
+```{r echo=F, include=F}
+current_date <- Sys.Date()
+current_date_german <- format(current_date, format="%d.%m.%Y")
+#print(current_date_german)
+
+```
+Diese Fassung `r current_date_german`
+
 # Einleitung
+
+Digitale Werkzeuge spielen seit langem eine immer wichtigere Rolle in der akademischen Lehre. Der Einsatz von künstlicher Intelligenz (KI) wird derzeit durch neue Dienste wie Chat gpt einer breiten Öffentlichkeit zugänglich gemacht. Dies wirft neue Fragen über die Eignung und Zulässigkeit dieser Dienste in der akademischen Lehre auf. Besonderes Augenmerk wird dabei regelmäßig auf die Integrität von Prüfungsleistungen gelegt. Es sollte aber auch untersucht werden, wo und wie solche Dienste den Lern- und Forschungsprozess unterstützen können. 
+
+Chat gpt ist ein generatives Modell, das auf einer großen Menge von Daten trainiert wurde, um automatisch Antworten auf Nachrichten und Fragen von Benutzern zu generieren. Nach dem Verständnis des Autors dieses Textes liegt der Schwerpunkt der Leistung von chat gpt nicht auf der Entwicklung von Antworten und der Bereitstellung von Inhalten, sondern auf dem Verständnis der Fragen. Und es liefert oft eine brauchbare Struktur für mögliche Antworten. Die inhaltliche Qualität der Antworten variiert. Dies kann sich natürlich in Zukunft durch technischen Fortschritt ändern. 
+
+In der Lehre kann chat gpt nicht nur zur Generierung von Texten eingesetzt werden, sondern auch als Werkzeug zur Unterstützung kreativer Prozesse. So können mit chat gpt beispielsweise Entwürfe und Strukturen generiert werden, die als Ausgangspunkt für eigene Überlegungen und weitere Bearbeitungen dienen können.
+
+Ein weiteres Anwendungsgebiet von chat gpt ist die Codegenerierung, z.B. in den Programmiersprachen R oder Tikz. Hier kann chat gpt die Studierenden bei der Umsetzung komplexer Aufgaben unterstützen und ihnen Zeit und Mühe ersparen.
+
+Insgesamt bietet chat gpt eine vielseitige Möglichkeit, den Studierenden eine neue Arbeitsweise zu eröffnen und sie in ihrer Lernentwicklung zu unterstützen.
+
+Der Einsatz von chat gpt hat in letzter Zeit zu kontroversen Diskussionen in der akademischen Welt geführt. Einige sehen in dieser Technologie eine Bedrohung für die Integrität von Prüfungsleistungen, da sie es Studierenden ermöglicht, ihre Aufgaben von künstlicher Intelligenz erledigen zu lassen.
+
+Es gibt jedoch auch eine andere Perspektive auf chat gpt, die die Möglichkeiten zur Steigerung der Produktivität, zur Unterstützung von Lernprozessen und zum Wecken von Interesse hervorhebt. Eine solche Perspektive konzentriert sich auf die kreative und innovative Nutzung von chat gpt in der akademischen Welt.
+
+Aus diesem Grund erscheint es lohnenswert, einen genaueren Blick auf die Vorteile, die Grenzen und die Herausforderungen von chat gpt in der Lehre zu werfen. 
+
+# Selbständiges Schreiben im Studium
+
+Eine grundlegende Fähigkeit, die Studierende im Rahmen eines wissenschaftlichen Studiums erwerben sollten, ist das Verfassen wissenschaftlicher Texte. Dazu gehört das Verfassen von wissenschaftlichen Arbeiten, Referaten und Abschlussarbeiten. Durch das Üben des wissenschaftlichen Schreibens lernen die Studierenden, nach wissenschaftlichen Standards zu arbeiten und ihre Argumente angemessen zu formulieren.
+
+Eine weitere wichtige Fähigkeit, die durch das Schreiben wissenschaftlicher Texte gefördert wird, ist die Anwendung von Argumentationstechniken. Studierende müssen lernen, ihre Überlegungen und Schlussfolgerungen klar und verständlich darzustellen. Dies erfordert die Verwendung von Belegen, Beispielen und einer logischen Struktur.
+
+Ein weiterer wichtiger Aspekt des wissenschaftlichen Schreibens ist die Aneignung wissenschaftlicher Ergebnisse aus der Literatur. Studierende müssen in der Lage sein, wichtige wissenschaftliche Literatur zu finden und zu verwenden, um ihre Argumentation zu stützen. Dies fördert nicht nur ihr Verständnis der Forschung in ihrem Fachgebiet, sondern auch ihre Fähigkeit, wissenschaftliche Literatur kritisch zu bewerten.
+
+Schließlich fördert das wissenschaftliche Schreiben die Fähigkeit der Studierenden, eigene Schlussfolgerungen aus wissenschaftlichen Ergebnissen zu ziehen. Dies erfordert ein tiefes Verständnis der Inhalte, die sie aus der Literatur gewonnen haben, sowie die Fähigkeit, diese Inhalte miteinander zu verknüpfen.
+
+Insgesamt kann gesagt werden, dass das Üben des wissenschaftlichen Schreibens eine wichtige Rolle bei der Entwicklung der Fähigkeiten der Studierenden spielt. Es hilft ihnen, ihr Verständnis wissenschaftlicher Theorien und Methoden zu vertiefen und ihre Fähigkeit zu verbessern, wissenschaftliche Argumente zu formulieren und zu begründen.
 
 # Was ist Chat GPT?
 
@@ -17,12 +56,92 @@ Die Antwort der KI selbst:
 
 # Riskant: Einarbeiten ins Thema
 
+Der Einsatz von KI, wie z.B. chat gpt, kann bei der Einarbeitung in ein Thema hilfreich sein, da er einen ersten Anhaltspunkt für das Verständnis eines Themas bieten kann. Ohne ein eigenes Verständnis des Themas ist es jedoch schwierig, die Qualität der generierten Inhalte zu beurteilen. KI-Systeme sind oft nicht mit der wissenschaftlichen Literatur verknüpft, so dass der Argumentationskontext verborgen bleibt. Daher ist es wichtig, das eigene Verständnis der Materie zu verbessern, um die Inhalte beurteilen und mit dem Kontext verknüpfen zu können. Andernfalls besteht die Gefahr, falsche Inhalte zu vermitteln.
+
 # Riskant: Produzieren von Texten
+
+s.o. Noch riskanter
 
 # Anhaltspunkte für eigene Recherche
 
+Die Verwendung von chat gpt kann viele Vorteile für die eigene Recherche bieten. Zum einen können Argumente ausprobiert und darauf aufbauend weiter recherchiert werden. Darüber hinaus kann durch die kritische Auseinandersetzung mit den generierten Inhalten das eigene Verständnis getestet und erweitert werden. Auf diese Weise wird sichergestellt, dass der Lernende nicht nur passiv Informationen aufnimmt, sondern aktiv am Lernprozess beteiligt ist. Darüber hinaus können durch die Nutzung von chat gpt Zeit und Ressourcen gespart werden, die sonst für die manuelle Recherche aufgewendet werden müssten.
+
 # Strukturieren von Projekten/Texten
 
-# Generieren von Code (R)
+Der Einsatz von chat gpt kann bei der Strukturierung von Projekten und Vorhaben sehr hilfreich sein. Es kann helfen, klare Fragestellungen und Ziele zu entwickeln und eine übersichtliche Gliederung zu erstellen. Dies kann die Planung und Durchführung von Projekten erleichtern und zu einer besseren Organisation beitragen. chat gpt kann auch helfen, vergessene Aspekte zu berücksichtigen und neue Ideen zu generieren. Durch den Einsatz von chat gpt kann somit eine solide Grundlage für ein erfolgreiches Projekt geschaffen werden.
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">ChatGPT is everywhere and everyone is using it.<br><br>But most academics don&#39;t know how to use it *smartly.*<br><br>Here&#39;s how to use ChatGPT intelligently (and ethically) for academic purposes:</p>&mdash; Mushtaq Bilal, PhD (@MushtaqBilalPhD) <a href="https://twitter.com/MushtaqBilalPhD/status/1621379333943083009?ref_src=twsrc%5Etfw">February 3, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+# Generieren von Code
+## R
+### R im allgemeinen Chat
+
+Die Verwendung von Chat GPT zur Erzeugung von R-Code bietet eine Reihe von Vorteilen. Es kann Zeit sparen, indem Code schnell und effizient generiert wird. Es kann auch als Inspiration für neue Ideen und Lösungen dienen und die Problemlösung beschleunigen. Darüber hinaus kann Chat GPT dabei helfen, Fehler im Code zu identifizieren und zu korrigieren, was die Effizienz und Genauigkeit verbessert. Zusammenfassend kann Chat GPT ein nützliches Werkzeug sein, um die Entwicklung von R-Code zu vereinfachen und zu beschleunigen.
+
+In der Praxis allerdings etwas holprig -- mehrere Anläufe nötig. Nicht immer erfolgreich.
+
+### RTutor
+
+[RTutor](http://rtutor.ai/)
+
+## TikZ
+
+Frage: 
+
+> Tikz. 7 Knoten im Kreis rund einen weiteren Knoten. Jeder Knoten ist rund und enthält ein Wort.
+
+Antwort:
+
+> I'm sorry, I am a language model AI, I am not able to generate visual content. However, you can use a tool like TikZ to create the image you described. Here is some sample code for you to start with:
+
+```{tikz}
+
+\begin{tikzpicture}
+
+\foreach \word [count=\i] in {Knoten 1, Knoten 2, Knoten 3, Knoten 4, Knoten 5, Knoten 6, Knoten 7}
+{
+\node[draw, circle] at (\i*360/7:3cm) {\word};
+}
+
+\node[draw, circle, inner sep=5mm] at (0,0) {Weiterer Knoten};
+
+\end{tikzpicture}
+
+```
+
+> You can modify the code to change the words in each node, the size and color of the nodes, and the distance between nodes.
+
+Frage:
+
+> that is great! can you replicate this sample code and add arrows between the satelite knots and the center knot?
+
+Antowrt: 
+
+> Sure! Here is an updated version of the code with arrows connecting the satellite knots to the central knot:
+
+```{tikz}
+
+\begin{tikzpicture}
+
+\foreach \word [count=\i] in {Knoten 1, Knoten 2, Knoten 3, Knoten 4, Knoten 5, Knoten 6, Knoten 7}
+{
+\node[draw, circle] (\i) at (\i*360/7:3cm) {\word};
+\draw[->] (\i) -- (0,0);
+}
+
+\node[draw, circle, inner sep=5mm] at (0,0) {Weiterer Knoten};
+
+\end{tikzpicture}
+
+```
+
+> You can also modify the style of the arrows using the draw options.
+
+[noch nicht perfekt, das etwas anders gemeint, aber auf der Basis knn man gut weiterarbeiten]::
+
+
+# Weitere Tools
+
+Sprachliche Glättung: [Deepl Write](https://www.deepl.com/write)
 
 # Fazit und Ausblick
