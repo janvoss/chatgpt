@@ -1,5 +1,5 @@
 ---
-title: "Chat GPT"
+title: "KI-Dienste wie chat gpt in der akademischen Lehre"
 author: "Jan S. Voßwinkel"
 #date: "4 2 2023"
 output:
