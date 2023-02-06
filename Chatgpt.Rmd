@@ -21,7 +21,9 @@ Diese Fassung `r current_date_german`
 
 Digitale Werkzeuge spielen seit langem eine immer wichtigere Rolle in der akademischen Lehre. Der Einsatz von künstlicher Intelligenz (KI) wird derzeit durch neue Dienste wie Chat gpt einer breiten Öffentlichkeit zugänglich gemacht. Dies wirft neue Fragen über die Eignung und Zulässigkeit dieser Dienste in der akademischen Lehre auf. Besonderes Augenmerk wird dabei regelmäßig auf die Integrität von Prüfungsleistungen gelegt. Es sollte aber auch untersucht werden, wo und wie solche Dienste den Lern- und Forschungsprozess unterstützen können. 
 
-Chat gpt ist ein generatives Modell, das auf einer großen Menge von Daten trainiert wurde, um automatisch Antworten auf Nachrichten und Fragen von Benutzern zu generieren. Nach dem Verständnis des Autors dieses Textes liegt der Schwerpunkt der Leistung von chat gpt nicht auf der Entwicklung von Antworten und der Bereitstellung von Inhalten, sondern auf dem Verständnis der Fragen. Und es liefert oft eine brauchbare Struktur für mögliche Antworten. Die inhaltliche Qualität der Antworten variiert. Dies kann sich natürlich in Zukunft durch technischen Fortschritt ändern. 
+Chat gpt ist ein generatives Modell, das auf einer großen Menge von Daten trainiert wurde, um automatisch Antworten auf Nachrichten und Fragen von Benutzern zu generieren. Eine breite Öffentlichkeit erhält Zugriff auf den Dienst über die Seite [chat.openai.com](https://chat.openai.com/). Dort kann man Fragen/Aufträge über ein Textfeld wie in einem Chatprogramm an das System richten und erhält typischerweise binnen einiger Sekunden eine Antwort/Reaktion. Auf diese Reaktionen kann man wiederum reagieren, sodass eine Interaktion wie in einem Gespräch stattfinden kann. Soweit nicht anders angegeben, ist in diesem Text mit chat gpt die Nutzung über die Seite [chat.openai.com](https://chat.openai.com/) gemeint.
+
+Nach dem Verständnis des Autors dieses Textes liegt der Schwerpunkt der Leistung von chat gpt nicht auf der Entwicklung von Antworten und der Bereitstellung von Inhalten, sondern auf dem Verständnis der Fragen. Auf Basis dieses Verständnisses liefert liefert es oft eine brauchbare Struktur für mögliche Antworten. Die inhaltliche Qualität der Antworten variiert. Dies kann sich natürlich in Zukunft durch technischen Fortschritt ändern. 
 
 In der Lehre kann chat gpt nicht nur zur Generierung von Texten eingesetzt werden, sondern auch als Werkzeug zur Unterstützung kreativer Prozesse. So können mit chat gpt beispielsweise Entwürfe und Strukturen generiert werden, die als Ausgangspunkt für eigene Überlegungen und weitere Bearbeitungen dienen können.
 
@@ -46,6 +48,10 @@ Ein weiterer wichtiger Aspekt des wissenschaftlichen Schreibens ist die Aneignun
 Schließlich fördert das wissenschaftliche Schreiben die Fähigkeit der Studierenden, eigene Schlussfolgerungen aus wissenschaftlichen Ergebnissen zu ziehen. Dies erfordert ein tiefes Verständnis der Inhalte, die sie aus der Literatur gewonnen haben, sowie die Fähigkeit, diese Inhalte miteinander zu verknüpfen.
 
 Insgesamt kann gesagt werden, dass das Üben des wissenschaftlichen Schreibens eine wichtige Rolle bei der Entwicklung der Fähigkeiten der Studierenden spielt. Es hilft ihnen, ihr Verständnis wissenschaftlicher Theorien und Methoden zu vertiefen und ihre Fähigkeit zu verbessern, wissenschaftliche Argumente zu formulieren und zu begründen.
+
+Daraus folgt, dass die (hypothetische) Bedienung eines Schreibautomaten, einer Maschine, die auf Knopfdruck Texte erzeugt, nicht den Lehr- und Lernzielen eines akademischen Studiums entspricht. Derzeit können Dienste wie chat gpt dies auch nicht leisten -- aber das kann sich ändern. 
+
+Allerdings können Dienste wie chat gpt die gewünschten Prozesse durchaus unterstützen, wenn sie gezielt eingesetzt werden. Im Folgenden wird versucht, mögliche Ansätze aufzuzeigen. 
 
 # Was ist Chat GPT?
 
@@ -73,18 +79,29 @@ Der Einsatz von chat gpt kann bei der Strukturierung von Projekten und Vorhaben 
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">ChatGPT is everywhere and everyone is using it.<br><br>But most academics don&#39;t know how to use it *smartly.*<br><br>Here&#39;s how to use ChatGPT intelligently (and ethically) for academic purposes:</p>&mdash; Mushtaq Bilal, PhD (@MushtaqBilalPhD) <a href="https://twitter.com/MushtaqBilalPhD/status/1621379333943083009?ref_src=twsrc%5Etfw">February 3, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 # Generieren von Code
+
+Chat gpt kann nicht nur zum Erstellen von Text in normaler Sprache genutzt werden, sondern auch zur Erstellung von Code in Programmiersprachen. Im Folgenden wird dies insbesondere für die Sprache R und für den TeX-Befehlssatz Ti*k*Z gezeigt. ^[Die Auswahl folgt den Präferenzen und Gewohnheiten des Verfassers.]
+
 ## R
 ### R im allgemeinen Chat
 
-Die Verwendung von Chat GPT zur Erzeugung von R-Code bietet eine Reihe von Vorteilen. Es kann Zeit sparen, indem Code schnell und effizient generiert wird. Es kann auch als Inspiration für neue Ideen und Lösungen dienen und die Problemlösung beschleunigen. Darüber hinaus kann Chat GPT dabei helfen, Fehler im Code zu identifizieren und zu korrigieren, was die Effizienz und Genauigkeit verbessert. Zusammenfassend kann Chat GPT ein nützliches Werkzeug sein, um die Entwicklung von R-Code zu vereinfachen und zu beschleunigen.
+Die Verwendung von Chat GPT zur Erzeugung von R-Code bietet eine Reihe von Vorteilen. Es kann Zeit sparen, indem Code schnell und effizient generiert wird. Es kann auch als Inspiration für neue Ideen und Lösungen dienen und die Problemlösung beschleunigen. Darüber hinaus kann Chat GPT dabei helfen, Fehler im Code zu identifizieren und zu korrigieren, was die Effizienz und Genauigkeit verbessert. 
 
-In der Praxis allerdings etwas holprig -- mehrere Anläufe nötig. Nicht immer erfolgreich.
+Grundsätzlich kann man im Chatfenster eine Frage formulieren und R-Code als Antwort erhalten. In der Praxis funktioniert dies aber nicht immer fehlerfrei oder nicht immer sind die Antworten im ersten Anlauf zufriedenstellend. Man kann sich also nicht darauf verlassen, dass hier immer zuverlässige Antworten gegeben werden. 
+
+Dennoch kann dieser Ansatz Zeit sparen, wenn man Code für Routineaufgaben generieren möchte. Darüber hinaus können die (manchmal auch falschen) Antworten Hinweise auf mögliche Lösungswege geben. 
 
 ### RTutor
 
-[RTutor](http://rtutor.ai/)
+Alternativ zur Nutzung des allgemeinen Chatfenster über [chat.openai.com](https://chat.openai.com/) kann auch eine auf R spezialisierte Seite [RTutor](http://rtutor.ai/) genutzt werden. 
+
+Der Service ermöglicht den Nutzenden, in normaler Sprache Ziele zu formulieren und R-Code als Ergebnis zu erhalten. Dieses kann an einem Musterdatensatz angewandt werden oder aber direkt auf einem durch die Nutzenden hochgeladenen Datensatz. Dieser Service ist hilfreich, um Lösungen bei der Entwicklung von R-Code zu finden und das Ergebnis gleich zu sehen. Auch hier gelingt es nach Erfahrung dieses Autors nicht immer, richtige Lösugnen zu generieren. 
+
+[Beispiele]::
 
 ## TikZ
+
+Ein weiteres Anwendungsfeld ist die Generierung von Code für das Behfehlsset Ti*k*Z innerhalb von $\TeX$. Der Dienst wirkt hier zögerlicher als bei der Ausgabe von R-Code, aber es liefert brauchbare Antworten.
 
 Frage: 
 
@@ -109,6 +126,14 @@ Antwort:
 
 ```
 
+Das ist ein recht brauchbares Ergebnis.
+
+```{r echo=F, include = F, eval=F}
+
+# Hier nur geparkt. Soll nicht ins Dokument
+
+
+
 > You can modify the code to change the words in each node, the size and color of the nodes, and the distance between nodes.
 
 Frage:
@@ -119,7 +144,7 @@ Antowrt:
 
 > Sure! Here is an updated version of the code with arrows connecting the satellite knots to the central knot:
 
-```{tikz}
+
 
 \begin{tikzpicture}
 
@@ -133,11 +158,13 @@ Antowrt:
 
 \end{tikzpicture}
 
-```
+
 
 > You can also modify the style of the arrows using the draw options.
 
 [noch nicht perfekt, das etwas anders gemeint, aber auf der Basis knn man gut weiterarbeiten]::
+
+```
 
 
 # Weitere Tools
@@ -145,3 +172,5 @@ Antowrt:
 Sprachliche Glättung: [Deepl Write](https://www.deepl.com/write)
 
 # Fazit und Ausblick
+
+Tbd
