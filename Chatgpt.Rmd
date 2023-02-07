@@ -15,6 +15,9 @@ current_date_german <- format(current_date, format="%d.%m.%Y")
 #print(current_date_german)
 
 ```
+
+# {-}
+
 Diese Fassung `r current_date_german`
 
 # Einleitung
