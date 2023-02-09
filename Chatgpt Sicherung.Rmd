@@ -1,0 +1,332 @@
+---
+title: "KI-gestützte Chatbots in der akademischen Lehre"
+author: "Jan S. Voßwinkel"
+# date: 
+output:
+  bookdown::gitbook:
+    config:
+      sharing: no
+    number_sections: yes
+---
+
+```{r echo=F, include=F}
+current_date <- Sys.Date()
+current_date_german <- format(current_date, format="%d.%m.%Y")
+#print(current_date_german)
+
+```
+
+#  {-}
+
+Diese Fassung `r current_date_german`
+
+```{r qr,  echo=FALSE, warning=FALSE}
+library(qrcode)
+
+qr <- qr_code('https://janvoss.github.io/chatgpt/')
+#plot(qr)
+
+generate_svg(qr, filename = "qr.svg")
+
+```
+
+
+ ${}$             |  Verfügbar unter: [https://janvoss.github.io/chatgpt](https://chatgpt/)
+:-------------------------:|:-------------------------:
+![logo](logo.png)  |  ![](qr.svg){width=60% }
+
+
+# Einleitung
+
+Der Einsatz von künstlicher Intelligenz (KI) wird derzeit durch Dienste wie Chat gpt einer breiten Öffentlichkeit zugänglich gemacht. Dies wirft neue Fragen über die Eignung und Zulässigkeit dieser Dienste in der akademischen Lehre auf. Besonderes Augenmerk wird dabei regelmäßig auf die Integrität von Prüfungsleistungen gelegt. Es sollte aber auch untersucht werden, wo und wie solche Dienste den Lern- und Forschungsprozess unterstützen können. 
+
+Künstliche Intelligenz erlaubt es Dienste zu entwickeln, die normale menschliche Sprache gut verstehen, Kontexte erkennen können und so differenzierte Antworten auf Fragen von Benutzern zu generieren. Eine breite Öffentlichkeit erhält derzeit Zugriff auf einen solchen Dienst über die Seite [chat.openai.com](https://chat.openai.com/). Dieser Dienst nutzt den Chabot Chat gpt. Dort kann man Fragen/Aufträge über ein Textfeld wie in einem Chatprogramm an das System richten und erhält typischerweise binnen einiger Sekunden eine Antwort/Reaktion. Auf diese Reaktionen kann man wiederum reagieren, sodass eine Interaktion wie in einem Gespräch stattfinden kann. Soweit nicht anders angegeben, ist in diesem Text mit chat gpt die Nutzung über die Seite [chat.openai.com](https://chat.openai.com/) gemeint. Die großen Suchmaschinenbetreiber Alphabet und Microsoft haben angekündigt, künstliche Intelligenz in ihre Suchmaschinen [Google](https://www.google.com) und [Bing](https://www.bing.com) zu integrieren. Dies könnte zu einer weiten Verbreitung der Nutzung solcher Dienste führen. 
+
+Nach dem Verständnis des Autors dieses Textes liegt der Schwerpunkt der Leistung von KI-gestützten Chatbots nicht auf der Entwicklung von Antworten und der Bereitstellung von Inhalten, sondern auf dem Verständnis der Fragen. Auf Basis dieses Verständnisses liefert liefert es oft eine brauchbare Struktur für mögliche Antworten. Die inhaltliche Qualität der Antworten variiert -- teilweise sind sie einfach falsch, ohne dass man dies sofort erkennen kann. Dies kann sich natürlich in Zukunft durch technischen Fortschritt ändern. 
+
+In der Lehre kann chat gpt nicht nur zur Beantwortung von Fragen oder zur Generierung von Texten eingesetzt werden, sondern auch als Werkzeug zur Unterstützung kreativer Prozesse. So können mit KI-gestützten Chatbots beispielsweise Entwürfe und Strukturen generiert werden, die als Ausgangspunkt für eigene Überlegungen und weitere Bearbeitungen dienen können.
+
+Ein weiteres Anwendungsgebiet von KI-gestützten Chatbots ist die Codegenerierung, z.B. in den Programmiersprachen R oder Ti*k*Z. Hier kann ein KI-gestützter Chatbot die Studierenden bei der Umsetzung komplexer Aufgaben unterstützen.
+
+Der Einsatz von KI-gestützten Chatbots hat in letzter Zeit zu kontroversen Diskussionen in der akademischen Welt geführt. Einige sehen in dieser Technologie eine Bedrohung für die Integrität von Prüfungsleistungen, da sie es Studierenden ermöglicht, ihre Aufgaben von künstlicher Intelligenz erledigen zu lassen.
+
+
+KI-gestützte Chatbots können jedoch auch die Produktivität von Studierenden steigern und sie in kreativen Prozessen und Lernprozessen unterstützen. Aus diesem Grund erscheint es lohnenswert, einen genaueren Blick auf die Vorteile, die Grenzen und die Herausforderungen von KI-gestützten Chatbots in der Lehre zu werfen. 
+
+# Selbständiges Schreiben im Studium
+
+Eine grundlegende Fähigkeit, die Studierende im Rahmen eines wissenschaftlichen Studiums erwerben sollten, ist das Verfassen wissenschaftlicher Texte. Durch das Üben des wissenschaftlichen Schreibens lernen die Studierenden, nach wissenschaftlichen Standards zu arbeiten und ihre Argumente angemessen zu formulieren. Studierende sollen lernen, ihre Überlegungen und Schlussfolgerungen klar und verständlich darzustellen. Dies erfordert die Einhaltung einer logischen Struktur, die Einbettung der eigenen Arbeit in die vorhandene Literatur sowie ggf. die Verdeutlichung anhand geeigneter Beispiele.
+
+In diesem Zusammenhang sollen Studierende den Umgang mit wissenschaftlicher Literatur in ihrem Fach lernen. Sie sollen in der Lage sein, einschlägige wissenschaftliche Literatur zu finden und zu verwenden, um sich in eine Materie einzuarbeiten. Sie sollten ihre Ergebnisse in die bestehende Literatur einbetten können.Dies fördert nicht nur ihr Verständnis der Forschung in ihrem Fachgebiet, sondern auch ihre Fähigkeit, wissenschaftliche Literatur kritisch zu bewerten.
+
+Schließlich fördert das wissenschaftliche Schreiben die Fähigkeit der Studierenden, eigene Schlussfolgerungen aus wissenschaftlichen Ergebnissen zu ziehen. Dies erfordert ein Verständnis der Inhalte, die sie aus der Literatur gewonnen haben, sowie die Fähigkeit, diese Inhalte miteinander zu verknüpfen.
+
+Daraus folgt, dass die (hypothetische) Bedienung eines Schreibautomaten, einer Maschine, die auf Knopfdruck Texte erzeugt, nicht den Lehr- und Lernzielen eines akademischen Studiums entspricht. Derzeit können KI-gestützte Chatbots dies  nicht leisten, oder aber nur in sehr geringer Qualität. Insbesondere die Einbettung in die Literatur kann durch KI-gestütze Chatbots nicht geleistet werden. Es könnte vorgetäuscht werden. Oberflächlich mag dies geligen, einer eingehenden Überprüfung dürften die Ergebnisse derzeit eher noch nicht standhalten. Das kann sich aber ändern. 
+
+Allerdings können Ki-gestützte Chatbots die gewünschten Prozesse durchaus unterstützen, wenn sie gezielt eingesetzt werden. Im Folgenden wird versucht, mögliche Ansätze aufzuzeigen. 
+
+# Was ist Chat GPT?
+
+Die Antwort der KI selbst: 
+
+> "ChatGPT ist ein maschinelles Sprachmodell, das von OpenAI entwickelt wurde. Es nutzt moderne künstliche Intelligenz und maschinelles Lernen, um auf menschliche Texteingaben zu antworten. ChatGPT wurde auf einer großen Menge an menschlicher Sprache trainiert und kann auf eine Vielzahl von Themen und Fragen antworten, darunter allgemeine Wissensfragen, Übersetzungen, Literaturrecherche und vieles mehr. Es wird häufig in Chatbots, digitalen Assistenten und anderen Anwendungen eingesetzt, um menschlichen Benutzern schnelle und präzise Antworten zu liefern."
+
+Aus der Sicht des Verfassers dieses Textes wirkt insbesondere der Aspekt Literaturrecherche in dieser Selbstbeschreibung (derzeit) übertrieben. 
+
+# Recherche zu einem Thema, Einarbeitung
+
+Grundsätzlich kann der Einsatz von KI-gestützten Chatbots bei der Einarbeitung in ein Thema hilfreich sein, da er einen ersten Anhaltspunkt für das Verständnis eines Themas bieten kann. Ohne ein eigenes Verständnis des Themas ist es jedoch schwierig, die Qualität der generierten Inhalte zu beurteilen. Die Antworten des Chatbots sind (derzeit) nicht mit der wissenschaftlichen Literatur verknüpft, so dass der jeweilige Argumentationskontext verborgen bleibt. 
+
+Wenn man an die KI-gestützte Recherche mit einigem Vorwissen und mit der Bereitschaft, die generierten Inhalte selbstndig zu hinterfragen und einzuordnen herangeht, kann ein KI-gestützter Chatbot eine Hilfestellung bei der Einarbeitung liefern, indem er Vorschläge für die zu recherchierenden Aspekte unterbreitet. 
+
+Es können somit Argumente ausprobiert und darauf aufbauend weiter recherchiert werden. Dies kann dazu einladen, dass die lernende Person nicht nur passiv Informationen aufnimmt, sondern aktiv den Lernprozess steuert. Die Möglichkeit, mit einem KI-gestützten Chatbot in Form von Fragen und Antworten in natürlicher Sprache zu kommunizieren erleichtert manchen Lernenden vielleicht den Arbeitsprozess.
+
+Ein KI-gestützter Chatbot **ersetzt** also **die eigene Leistung nicht**, er zeigt **keine Abkürzung**, er *ergänzt die eigene Leistung**, er *bietet eine Hilfestelltung**. 
+
+# Automatisches Generieren von Texten
+
+Das automatische Generieren von Texten durch einen KI-gestützten Chatbot funktioniert augenscheinlich gut. Allerdings -- wie im vorhergehenden Abschnitt ausgeführt -- lässt sich die inhaltliche Qualität der produzierten Texte ohne eigene Fachkenntnis nicht gut beurteilen. Eine explizite Berücksichtigung von Literatur fehlt. Eine automatisierte Generierung von Texten, die wissenschaftlichen Ansprüchen genügen, gelingt derzeit nicht. 
+
+Es können jedoch Texte generiert werden, die (ggf. mit etwas Nacharbeit) den Anschein der Wissenschaftlichekit erwecken. Die Qualitätskontrolle von studentischen Arbeiten sollte daher künftig auch auf diesen Aspekt hin sehr sorgfältig erfolgen. Ob ein Täuschungsversuch rechtssicher festgestellt weden kann, kann der Verfasser dieses Textes dereit nicht beurteilen (es gibt bereits erste Dienste zur Identifizierung KI-generierter Texte). Allerdings lässt sich die Qualität der Leistung durchaus beurteilen. Es wird allerdings eventuell schwieriger, die Qualität von Texten zu beurteilen, da KI-generierte Texte, oberflächlich betrachtet, den Anschein der Schlüssigkeit erwecken.
+
+
+# Strukturieren von Projekten/Texten
+
+Der Einsatz von KI-gestützten Chatbots kann bei der Strukturierung von Projekten und Vorhaben sehr hilfreich sein. Er kann helfen, eine erste Gliederung zu erstellen. Gegebenenfalls hilft dies auch, zunächst übersehene Aspekte zu berücksichtigen und neue Ideen zu generieren. 
+
+Ein Beispiel
+
+
+Frage: 
+
+Kontext: Abschlussarbeit Studiengang Volkswirtschaftslehre. 
+Gliederung für eine Bachelorarbeit: Maßnahmen der EU zur Reduktion von Treibhausgasemissionen im Straßenverkehr. Analyse und Perspektiven
+
+Antwort: 
+
+>    Einleitung
+>
+>    Definition und Hintergrund des Themas
+>    Ziele und Aufbau der Abschlussarbeit
+>
+>    Theoretischer Rahmen
+>
+>    Definition und Ursachen von Treibhausgasemissionen
+>    Bedeutung des Straßenverkehrs für die Treibhausgasemissionen
+>    EU-Maßnahmen zur Reduktion von Treibhausgasemissionen
+>
+>    Analyse der EU-Maßnahmen
+>
+>   Überblick über die wichtigsten EU-Maßnahmen im Straßenverkehr
+>    Analyse der Wirksamkeit der EU-Maßnahmen
+>    Vergleich der EU-Maßnahmen mit anderen Ländern
+>
+>   Perspektiven und Empfehlungen
+>
+>   Prognose der Treibhausgasemissionen im Straßenverkehr
+>    Möglichkeiten zur weiteren Reduktion von Treibhausgasemissionen
+>    Empfehlungen für die EU und den Straßenverkehr
+>
+>    Fazit
+>
+>   Zusammenfassung der wichtigsten Ergebnisse
+>    Ausblick auf weitere Forschungsbedarfe
+>
+>    Literaturverzeichnis
+>
+>   Verwendete Literatur zum Thema
+>
+>  Anhang
+>
+>    Daten und Methoden der Analyse
+>    Tabellen und Grafiken zur Visualisierung der Ergebnisse.
+
+
+Das ist längst nicht perfekt, aber als ein erster Einstieg für eine weitere eigene Bearbeitung sehr brauchbar. 
+
+[Auch Fragen zu einenm Thema]::
+
+Weitere Hinweise zu einem solchen Vorgehe findet man auch hier: <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">ChatGPT is everywhere and everyone is using it.<br><br>But most academics don&#39;t know how to use it *smartly.*<br><br>Here&#39;s how to use ChatGPT intelligently (and ethically) for academic purposes:</p>&mdash; Mushtaq Bilal, PhD (@MushtaqBilalPhD) <a href="https://twitter.com/MushtaqBilalPhD/status/1621379333943083009?ref_src=twsrc%5Etfw">February 3, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+# Generieren von Code
+
+Chat gpt kann nicht nur zum Erstellen von Text in normaler Sprache genutzt werden, sondern auch zur Erstellung von Code in Programmiersprachen. Im Folgenden wird dies insbesondere für die Sprache R und für den TeX-Befehlssatz Ti*k*Z gezeigt. ^[Die Auswahl folgt den Präferenzen und Gewohnheiten des Verfassers.]
+
+## R
+### R im allgemeinen Chat
+
+Die Verwendung von Chat GPT zur Erzeugung von R-Code bietet eine Reihe von Vorteilen. Es kann Zeit sparen, indem Code schnell und effizient generiert wird. Es kann auch als Inspiration für neue Ideen und Lösungen dienen und die Problemlösung beschleunigen. Darüber hinaus kann Chat GPT dabei helfen, Fehler im Code zu identifizieren und zu korrigieren, was die Effizienz und Genauigkeit verbessert. 
+
+Grundsätzlich kann man im Chatfenster eine Frage formulieren und R-Code als Antwort erhalten. In der Praxis funktioniert dies aber nicht immer fehlerfrei oder nicht immer sind die Antworten im ersten Anlauf zufriedenstellend. Man kann sich also nicht darauf verlassen, dass hier immer zuverlässige Antworten gegeben werden. 
+
+Dennoch kann dieser Ansatz Zeit sparen, wenn man Code für Routineaufgaben generieren möchte. Darüber hinaus können die (manchmal auch falschen) Antworten Hinweise auf mögliche Lösungswege geben. 
+
+### RTutor
+
+Alternativ zur Nutzung des allgemeinen Chatfenster über [chat.openai.com](https://chat.openai.com/) kann auch eine auf R spezialisierte Seite [RTutor](http://rtutor.ai/) genutzt werden. 
+
+Der Service ermöglicht den Nutzenden, in normaler Sprache Ziele zu formulieren und R-Code als Ergebnis zu erhalten. Dieses kann an einem Musterdatensatz angewandt werden oder aber direkt auf einem durch die Nutzenden hochgeladenen Datensatz. Dieser Service ist hilfreich, um Lösungen bei der Entwicklung von R-Code zu finden und das Ergebnis gleich zu sehen. Auch hier gelingt es nach Erfahrung dieses Autors nicht immer, richtige Lösugnen zu generieren. 
+
+Frage: 
+Please generate R code. Hypothetical data gdp per capita in a fictional country. 1950-2022. Data should exhibit a positive trend and stochastic error. Create plot using ggplot showing a line plot and a loess smooth.
+
+Antwort: 
+
+>Here is an example of R code that generates hypothetical data for GDP per capita in a fictional country from 1950 to 2022. The data includes a positive trend and random error. The code also creates a line plot and a loess smooth using ggplot:
+
+```{r echo=T, warning=F, message=F, eval=F}
+
+# generate data
+library(tidyverse)
+
+set.seed(123)
+
+years <- 1950:2022
+gdp_per_capita <- cumsum(rnorm(73, mean = 1, sd = 0.2)) + 100
+
+df <- tibble(Year = years, GDP_per_capita = gdp_per_capita)
+
+# plot data
+ggplot(df, aes(x = Year, y = GDP_per_capita)) +
+  geom_line() +
+  geom_smooth(method = "loess", se = FALSE) +
+  xlab("Year") +
+  ylab("GDP per capita") +
+  ggtitle("GDP per capita in a fictional country")
+
+
+```
+
+>The resulting plot will show the trend of GDP per capita over time, with a line plot of the data and a loess smooth to show the underlying trend.
+
+Das Resultat sieht so aus: 
+
+
+```{r echo=F, warning=F, message=F, eval=T}
+
+# generate data
+library(tidyverse)
+
+set.seed(123)
+
+years <- 1950:2022
+gdp_per_capita <- cumsum(rnorm(73, mean = 1, sd = 0.2)) + 100
+
+df <- tibble(Year = years, GDP_per_capita = gdp_per_capita)
+
+# plot data
+ggplot(df, aes(x = Year, y = GDP_per_capita)) +
+  geom_line() +
+  geom_smooth(method = "loess", se = FALSE) +
+  xlab("Year") +
+  ylab("GDP per capita") +
+  ggtitle("GDP per capita in a fictional country")
+
+
+```
+
+
+Ich habe für eine Verdeutlichung der Schwankungen die Standardabweichung von 0.2 auf 1.4 erhöht, sodass das Resultat nun so aussieht: 
+
+```{r echo=F, warning=F, message=F}
+
+# generate data
+library(tidyverse)
+
+set.seed(123)
+
+years <- 1950:2022
+gdp_per_capita <- cumsum(rnorm(73, mean = 1, sd = 1.4)) + 100
+
+df <- tibble(Year = years, GDP_per_capita = gdp_per_capita)
+
+# plot data
+ggplot(df, aes(x = Year, y = GDP_per_capita)) +
+  geom_line() +
+  geom_smooth(method = "loess", se = FALSE) +
+  xlab("Year") +
+  ylab("GDP per capita") +
+  ggtitle("GDP per capita in a fictional country")
+
+
+```
+
+Das ist ganz brauchbar und kann weiter angepasst werden. Viel schneller lässt sich ein erster Entwurf vermutlich nicht generieren. 
+
+[Beispiele]::
+
+## Ti*k*Z
+
+Ein weiteres Anwendungsfeld ist die Generierung von Code für das Behfehlsset Ti*k*Z innerhalb von $\TeX$. Der Dienst wirkt hier zögerlicher als bei der Ausgabe von R-Code, aber es liefert brauchbare Antworten.
+
+Frage: 
+
+> Tikz. 7 Knoten im Kreis rund einen weiteren Knoten. Jeder Knoten ist rund und enthält ein Wort.
+
+Antwort:
+
+> I'm sorry, I am a language model AI, I am not able to generate visual content. However, you can use a tool like TikZ to create the image you described. Here is some sample code for you to start with:
+
+```{tikz}
+
+\begin{tikzpicture}
+
+\foreach \word [count=\i] in {Knoten 1, Knoten 2, Knoten 3, Knoten 4, Knoten 5, Knoten 6, Knoten 7}
+{
+\node[draw, circle] at (\i*360/7:3cm) {\word};
+}
+
+\node[draw, circle, inner sep=5mm] at (0,0) {Weiterer Knoten};
+
+\end{tikzpicture}
+
+```
+
+Das ist ein recht brauchbares Ergebnis.
+
+```{r echo=F, include = F, eval=F}
+
+# Hier nur geparkt. Soll nicht ins Dokument
+
+
+
+> You can modify the code to change the words in each node, the size and color of the nodes, and the distance between nodes.
+
+Frage:
+
+> that is great! can you replicate this sample code and add arrows between the satelite knots and the center knot?
+
+Antowrt: 
+
+> Sure! Here is an updated version of the code with arrows connecting the satellite knots to the central knot:
+
+
+
+\begin{tikzpicture}
+
+\foreach \word [count=\i] in {Knoten 1, Knoten 2, Knoten 3, Knoten 4, Knoten 5, Knoten 6, Knoten 7}
+{
+\node[draw, circle] (\i) at (\i*360/7:3cm) {\word};
+\draw[->] (\i) -- (0,0);
+}
+
+\node[draw, circle, inner sep=5mm] at (0,0) {Weiterer Knoten};
+
+\end{tikzpicture}
+
+
+
+> You can also modify the style of the arrows using the draw options.
+
+[noch nicht perfekt, das etwas anders gemeint, aber auf der Basis knn man gut weiterarbeiten]::
+
+```
+
+
+# Weitere Tools
+
+Sprachliche Glättung: [Deepl Write](https://www.deepl.com/write)
+
+# Fazit und Ausblick
+
+Tbd
