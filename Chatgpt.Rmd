@@ -44,7 +44,7 @@ Künstliche Intelligenz erlaubt es Dienste zu entwickeln, die normale menschlich
 
 Nach dem Verständnis des Autors dieses Textes liegt der Schwerpunkt der Leistung von KI-gestützten Chatbots nicht auf der Entwicklung von Antworten und der Bereitstellung von Inhalten, sondern auf dem Verständnis der Fragen. Auf Basis dieses Verständnisses liefert liefert es oft eine brauchbare Struktur für mögliche Antworten. Die inhaltliche Qualität der Antworten variiert -- teilweise sind sie einfach falsch, ohne dass man dies sofort erkennen kann. Dies kann sich natürlich in Zukunft durch technischen Fortschritt ändern. 
 
-In der Lehre kann chat gpt nicht nur zur Beantwortung von Fragen oder zur Generierung von Texten eingesetzt werden, sondern auch als Werkzeug zur Unterstützung kreativer Prozesse. So können mit KI-gestützten Chatbots beispielsweise Entwürfe und Strukturen generiert werden, die als Ausgangspunkt für eigene Überlegungen und weitere Bearbeitungen dienen können.
+In der Lehre können KI-gestützte Chatbots nicht nur zur Beantwortung von Fragen oder zur Generierung von Texten eingesetzt werden, sondern auch als Werkzeug zur Unterstützung kreativer Prozesse. So können mit KI-gestützten Chatbots beispielsweise Entwürfe und Strukturen generiert werden, die als Ausgangspunkt für eigene Überlegungen und weitere Bearbeitungen dienen können.
 
 Ein weiteres Anwendungsgebiet von KI-gestützten Chatbots ist die Codegenerierung, z.B. in den Programmiersprachen R oder Ti*k*Z. Hier kann ein KI-gestützter Chatbot die Studierenden bei der Umsetzung komplexer Aufgaben unterstützen.
 
