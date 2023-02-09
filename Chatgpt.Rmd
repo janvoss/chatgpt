@@ -66,7 +66,7 @@ Daraus folgt, dass die (hypothetische) Bedienung eines Schreibautomaten, einer M
 Allerdings können KI-gestützte Chatbots die gewünschten Prozesse durchaus unterstützen, wenn sie gezielt eingesetzt werden. Im Folgenden wird versucht, mögliche Ansätze aufzuzeigen. 
 
 ```{r echo=F, include=F, eval=F}
-
+# Hier geparkt.
 # Was ist Chat GPT?
 
 Die Antwort der KI selbst: 
@@ -83,7 +83,7 @@ Grundsätzlich kann der Einsatz von KI-gestützten Chatbots bei der Einarbeitung
 
 Wenn man an die KI-gestützte Recherche mit einigem Vorwissen und mit der Bereitschaft, die generierten Inhalte selbstndig zu hinterfragen und einzuordnen herangeht, kann ein KI-gestützter Chatbot eine Hilfestellung bei der Einarbeitung liefern, indem er Vorschläge für die zu recherchierenden Aspekte unterbreitet. 
 
-Es können somit Argumente ausprobiert und darauf aufbauend weiter recherchiert werden. Dies kann dazu einladen, dass die lernende Person nicht nur passiv Informationen aufnimmt, sondern aktiv den Lernprozess steuert. Die Möglichkeit, mit einem KI-gestützten Chatbot in Form von Fragen und Antworten in natürlicher Sprache zu kommunizieren erleichtert manchen Lernenden vielleicht den Arbeitsprozess.
+Es können somit Argumente ausprobiert und darauf aufbauend kann weiter recherchiert werden. Dies kann dazu einladen, dass die lernende Person nicht nur passiv Informationen aufnimmt, sondern aktiv den Lernprozess steuert. Die Möglichkeit, mit einem KI-gestützten Chatbot in Form von Fragen und Antworten in natürlicher Sprache zu kommunizieren erleichtert manchen Lernenden vielleicht den Arbeitsprozess.
 
 Ein KI-gestützter Chatbot **ersetzt** also **die eigene Leistung nicht**, er zeigt **keine Abkürzung**, er **ergänzt die eigene Leistung**, er **bietet eine Hilfestelltung**. 
 
