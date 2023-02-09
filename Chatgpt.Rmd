@@ -81,7 +81,7 @@ Wenn man an die KI-gestützte Recherche mit einigem Vorwissen und mit der Bereit
 
 Es können somit Argumente ausprobiert und darauf aufbauend weiter recherchiert werden. Dies kann dazu einladen, dass die lernende Person nicht nur passiv Informationen aufnimmt, sondern aktiv den Lernprozess steuert. Die Möglichkeit, mit einem KI-gestützten Chatbot in Form von Fragen und Antworten in natürlicher Sprache zu kommunizieren erleichtert manchen Lernenden vielleicht den Arbeitsprozess.
 
-Ein KI-gestützter Chatbot **ersetzt** also **die eigene Leistung nicht**, er zeigt **keine Abkürzung**, er *ergänzt die eigene Leistung**, er *bietet eine Hilfestelltung**. 
+Ein KI-gestützter Chatbot **ersetzt** also **die eigene Leistung nicht**, er zeigt **keine Abkürzung**, er **ergänzt die eigene Leistung**, er **bietet eine Hilfestelltung**. 
 
 # Automatisches Generieren von Texten
 
