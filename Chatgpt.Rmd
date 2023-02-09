@@ -261,7 +261,7 @@ Der Service ermöglicht den Nutzenden, in normaler Sprache Ziele zu formulieren 
 
 ## Ti*k*Z
 
-Ein weiteres Anwendungsfeld ist die Generierung von Code für das Behfehlsset [Ti*k*Z](https://tikz.dev/) innerhalb von $\TeX$. Der Dienst wirkt hier zögerlicher als bei der Ausgabe von R-Code, aber es liefert brauchbare Antworten.
+Ein weiteres Anwendungsfeld ist die Generierung von Code für das Behfehlsset [Ti*k*Z](https://tikz.dev/) innerhalb von $\TeX$. Der Dienst wirkt hier zögerlicher als bei der Ausgabe von R-Code, aber er liefert brauchbare Antworten.
 
 Frage: 
 
