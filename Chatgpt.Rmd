@@ -31,7 +31,7 @@ generate_svg(qr, filename = "qr.svg")
 ```
 
 
- ${}$             |  Verfügbar unter: [https://janvoss.github.io/chatgpt](https://chatgpt/)
+ ${}$             |  Verfügbar unter: [https://janvoss.github.io/chatgpt]([https://janvoss.github.io/chatgpt)
 :-------------------------:|:-------------------------:
 ![logo](logo.png)  |  ![](qr.svg){width=60% }
 
