@@ -18,7 +18,7 @@ current_date_german <- format(current_date, format="%d.%m.%Y")
 
 #  {-}
 
-Diese Fassung `r current_date_german`
+Diese Arbeitsfassung: `r current_date_german`
 
 ```{r qr,  echo=FALSE, warning=FALSE}
 library(qrcode)
@@ -63,7 +63,7 @@ Schließlich fördert das wissenschaftliche Schreiben die Fähigkeit der Studier
 
 Daraus folgt, dass die (hypothetische) Bedienung eines Schreibautomaten, einer Maschine, die auf Knopfdruck Texte erzeugt, nicht den Lehr- und Lernzielen eines akademischen Studiums entspricht. Derzeit können KI-gestützte Chatbots dies  nicht leisten, oder aber nur in sehr geringer Qualität. Insbesondere die Einbettung in die Literatur kann durch KI-gestütze Chatbots nicht geleistet werden. Es könnte vorgetäuscht werden. Oberflächlich mag dies geligen, einer eingehenden Überprüfung dürften die Ergebnisse derzeit eher noch nicht standhalten. Das kann sich aber ändern. 
 
-Allerdings können Ki-gestützte Chatbots die gewünschten Prozesse durchaus unterstützen, wenn sie gezielt eingesetzt werden. Im Folgenden wird versucht, mögliche Ansätze aufzuzeigen. 
+Allerdings können KI-gestützte Chatbots die gewünschten Prozesse durchaus unterstützen, wenn sie gezielt eingesetzt werden. Im Folgenden wird versucht, mögliche Ansätze aufzuzeigen. 
 
 # Was ist Chat GPT?
 
@@ -73,27 +73,36 @@ Die Antwort der KI selbst:
 
 Aus der Sicht des Verfassers dieses Textes wirkt insbesondere der Aspekt Literaturrecherche in dieser Selbstbeschreibung (derzeit) übertrieben. 
 
-# Riskant: Einarbeiten ins Thema
+# Recherche zu einem Thema, Einarbeitung
 
-Der Einsatz von KI, wie z.B. chat gpt, kann bei der Einarbeitung in ein Thema hilfreich sein, da er einen ersten Anhaltspunkt für das Verständnis eines Themas bieten kann. Ohne ein eigenes Verständnis des Themas ist es jedoch schwierig, die Qualität der generierten Inhalte zu beurteilen. KI-Systeme sind oft nicht mit der wissenschaftlichen Literatur verknüpft, so dass der Argumentationskontext verborgen bleibt. Daher ist es wichtig, das eigene Verständnis der Materie zu verbessern, um die Inhalte beurteilen und mit dem Kontext verknüpfen zu können. Andernfalls besteht die Gefahr, falsche Inhalte zu vermitteln.
+Grundsätzlich kann der Einsatz von KI-gestützten Chatbots bei der Einarbeitung in ein Thema hilfreich sein, da er einen ersten Anhaltspunkt für das Verständnis eines Themas bieten kann. Ohne ein eigenes Verständnis des Themas ist es jedoch schwierig, die Qualität der generierten Inhalte zu beurteilen. Die Antworten des Chatbots sind (derzeit) nicht mit der wissenschaftlichen Literatur verknüpft, so dass der jeweilige Argumentationskontext verborgen bleibt. 
 
-# Riskant: Produzieren von Texten
+Wenn man an die KI-gestützte Recherche mit einigem Vorwissen und mit der Bereitschaft, die generierten Inhalte selbstndig zu hinterfragen und einzuordnen herangeht, kann ein KI-gestützter Chatbot eine Hilfestellung bei der Einarbeitung liefern, indem er Vorschläge für die zu recherchierenden Aspekte unterbreitet. 
 
-s.o. Noch riskanter
+Es können somit Argumente ausprobiert und darauf aufbauend weiter recherchiert werden. Dies kann dazu einladen, dass die lernende Person nicht nur passiv Informationen aufnimmt, sondern aktiv den Lernprozess steuert. Die Möglichkeit, mit einem KI-gestützten Chatbot in Form von Fragen und Antworten in natürlicher Sprache zu kommunizieren erleichtert manchen Lernenden vielleicht den Arbeitsprozess.
 
-# Anhaltspunkte für eigene Recherche
+Ein KI-gestützter Chatbot **ersetzt** also **die eigene Leistung nicht**, er zeigt **keine Abkürzung**, er *ergänzt die eigene Leistung**, er *bietet eine Hilfestelltung**. 
 
-Die Verwendung von chat gpt kann viele Vorteile für die eigene Recherche bieten. Zum einen können Argumente ausprobiert und darauf aufbauend weiter recherchiert werden. Darüber hinaus kann durch die kritische Auseinandersetzung mit den generierten Inhalten das eigene Verständnis getestet und erweitert werden. Auf diese Weise wird sichergestellt, dass der Lernende nicht nur passiv Informationen aufnimmt, sondern aktiv am Lernprozess beteiligt ist. Darüber hinaus können durch die Nutzung von chat gpt Zeit und Ressourcen gespart werden, die sonst für die manuelle Recherche aufgewendet werden müssten.
+# Automatisches Generieren von Texten
+
+Das automatische Generieren von Texten durch einen KI-gestützten Chatbot funktioniert augenscheinlich gut. Allerdings -- wie im vorhergehenden Abschnitt ausgeführt -- lässt sich die inhaltliche Qualität der produzierten Texte ohne eigene Fachkenntnis nicht gut beurteilen. Eine explizite Berücksichtigung von Literatur fehlt. Eine automatisierte Generierung von Texten, die wissenschaftlichen Ansprüchen genügen, gelingt derzeit nicht. 
+
+Es können jedoch Texte generiert werden, die (ggf. mit etwas Nacharbeit) den Anschein der Wissenschaftlichekit erwecken. Die Qualitätskontrolle von studentischen Arbeiten sollte daher künftig auch auf diesen Aspekt hin sehr sorgfältig erfolgen. Ob ein Täuschungsversuch rechtssicher festgestellt weden kann, kann der Verfasser dieses Textes dereit nicht beurteilen (es gibt bereits erste Dienste zur Identifizierung KI-generierter Texte). Allerdings lässt sich die Qualität der Leistung durchaus beurteilen. Es wird allerdings eventuell schwieriger, die Qualität von Texten zu beurteilen, da KI-generierte Texte, oberflächlich betrachtet, den Anschein der Schlüssigkeit erwecken.
+
 
 # Strukturieren von Projekten/Texten
 
-Der Einsatz von chat gpt kann bei der Strukturierung von Projekten und Vorhaben hilfreich sein. Es kann helfen, klare Fragestellungen und Ziele zu entwickeln und eine übersichtliche Gliederung zu erstellen. Dies kann die Planung und Durchführung von Projekten erleichtern und zu einer besseren Organisation beitragen. chat gpt kann auch helfen, vergessene Aspekte zu berücksichtigen und neue Ideen zu generieren. Durch den Einsatz von chat gpt kann somit eine Grundlage für die eigene weitere Bearbeitung geschaffen werden.
+Der Einsatz von KI-gestützten Chatbots kann bei der Strukturierung von Projekten und Vorhaben sehr hilfreich sein. Er kann helfen, eine erste Gliederung zu erstellen. Gegebenenfalls hilft dies auch, zunächst übersehene Aspekte zu berücksichtigen und neue Ideen zu generieren. 
+
+Ein Beispiel
 
 
 Frage: 
 
 Kontext: Abschlussarbeit Studiengang Volkswirtschaftslehre. 
 Gliederung für eine Bachelorarbeit: Maßnahmen der EU zur Reduktion von Treibhausgasemissionen im Straßenverkehr. Analyse und Perspektiven
+
+Antwort: 
 
 >    Einleitung
 >
@@ -137,7 +146,7 @@ Das ist längst nicht perfekt, aber als ein erster Einstieg für eine weitere ei
 
 [Auch Fragen zu einenm Thema]::
 
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">ChatGPT is everywhere and everyone is using it.<br><br>But most academics don&#39;t know how to use it *smartly.*<br><br>Here&#39;s how to use ChatGPT intelligently (and ethically) for academic purposes:</p>&mdash; Mushtaq Bilal, PhD (@MushtaqBilalPhD) <a href="https://twitter.com/MushtaqBilalPhD/status/1621379333943083009?ref_src=twsrc%5Etfw">February 3, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+Weitere Hinweise zu einem solchen Vorgehen findet man auch hier: <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">ChatGPT is everywhere and everyone is using it.<br><br>But most academics don&#39;t know how to use it *smartly.*<br><br>Here&#39;s how to use ChatGPT intelligently (and ethically) for academic purposes:</p>&mdash; Mushtaq Bilal, PhD (@MushtaqBilalPhD) <a href="https://twitter.com/MushtaqBilalPhD/status/1621379333943083009?ref_src=twsrc%5Etfw">February 3, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 # Generieren von Code
 
@@ -146,19 +155,14 @@ Chat gpt kann nicht nur zum Erstellen von Text in normaler Sprache genutzt werde
 ## R
 ### R im allgemeinen Chat
 
-Die Verwendung von Chat GPT zur Erzeugung von R-Code bietet eine Reihe von Vorteilen. Es kann Zeit sparen, indem Code schnell und effizient generiert wird. Es kann auch als Inspiration für neue Ideen und Lösungen dienen und die Problemlösung beschleunigen. Darüber hinaus kann Chat GPT dabei helfen, Fehler im Code zu identifizieren und zu korrigieren, was die Effizienz und Genauigkeit verbessert. 
-
 Grundsätzlich kann man im Chatfenster eine Frage formulieren und R-Code als Antwort erhalten. In der Praxis funktioniert dies aber nicht immer fehlerfrei oder nicht immer sind die Antworten im ersten Anlauf zufriedenstellend. Man kann sich also nicht darauf verlassen, dass hier immer zuverlässige Antworten gegeben werden. 
 
 Dennoch kann dieser Ansatz Zeit sparen, wenn man Code für Routineaufgaben generieren möchte. Darüber hinaus können die (manchmal auch falschen) Antworten Hinweise auf mögliche Lösungswege geben. 
 
-### RTutor
-
-Alternativ zur Nutzung des allgemeinen Chatfenster über [chat.openai.com](https://chat.openai.com/) kann auch eine auf R spezialisierte Seite [RTutor](http://rtutor.ai/) genutzt werden. 
-
-Der Service ermöglicht den Nutzenden, in normaler Sprache Ziele zu formulieren und R-Code als Ergebnis zu erhalten. Dieses kann an einem Musterdatensatz angewandt werden oder aber direkt auf einem durch die Nutzenden hochgeladenen Datensatz. Dieser Service ist hilfreich, um Lösungen bei der Entwicklung von R-Code zu finden und das Ergebnis gleich zu sehen. Auch hier gelingt es nach Erfahrung dieses Autors nicht immer, richtige Lösugnen zu generieren. 
+Ein Beispiel:
 
 Frage: 
+
 Please generate R code. Hypothetical data gdp per capita in a fictional country. 1950-2022. Data should exhibit a positive trend and stochastic error. Create plot using ggplot showing a line plot and a loess smooth.
 
 Antwort: 
@@ -216,8 +220,7 @@ ggplot(df, aes(x = Year, y = GDP_per_capita)) +
 
 ```
 
-
-Ich habe für eine Verdeutlichung der Schwankungen die Standardabweichung von 0.2 auf 1.4 erhöht, sodass das Resultat nun so aussieht: 
+Wenn an für eine Verdeutlichung der Schwankungen die Standardabweichung von 0.2 auf 1.4 erhöht, sieht das Resultat dann so aus: 
 
 ```{r echo=F, warning=F, message=F}
 
@@ -243,6 +246,12 @@ ggplot(df, aes(x = Year, y = GDP_per_capita)) +
 ```
 
 Das ist ganz brauchbar und kann weiter angepasst werden. Viel schneller lässt sich ein erster Entwurf vermutlich nicht generieren. 
+
+### RTutor
+
+Alternativ zur Nutzung des allgemeinen Chatfenster über [chat.openai.com](https://chat.openai.com/) kann auch eine auf R spezialisierte Seite [RTutor](http://rtutor.ai/) genutzt werden. 
+
+Der Service ermöglicht den Nutzenden, in normaler Sprache Ziele zu formulieren und R-Code als Ergebnis zu erhalten. Dieses kann an einem Musterdatensatz angewandt werden oder aber direkt auf einem durch die Nutzenden hochgeladenen Datensatz. Dieser Service ist hilfreich, um Lösungen bei der Entwicklung von R-Code zu finden und das Ergebnis gleich zu sehen. Auch hier gelingt es nach Erfahrung dieses Autors nicht immer, richtige Lösugnen zu generieren. 
 
 [Beispiele]::
 

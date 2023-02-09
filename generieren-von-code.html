@@ -173,16 +173,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2><span class="header-section-number">7.1</span> R<a href="generieren-von-code.html#r" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="r-im-allgemeinen-chat" class="section level3 hasAnchor" number="7.1.1">
 <h3><span class="header-section-number">7.1.1</span> R im allgemeinen Chat<a href="generieren-von-code.html#r-im-allgemeinen-chat" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Die Verwendung von Chat GPT zur Erzeugung von R-Code bietet eine Reihe von Vorteilen. Es kann Zeit sparen, indem Code schnell und effizient generiert wird. Es kann auch als Inspiration für neue Ideen und Lösungen dienen und die Problemlösung beschleunigen. Darüber hinaus kann Chat GPT dabei helfen, Fehler im Code zu identifizieren und zu korrigieren, was die Effizienz und Genauigkeit verbessert.</p>
 <p>Grundsätzlich kann man im Chatfenster eine Frage formulieren und R-Code als Antwort erhalten. In der Praxis funktioniert dies aber nicht immer fehlerfrei oder nicht immer sind die Antworten im ersten Anlauf zufriedenstellend. Man kann sich also nicht darauf verlassen, dass hier immer zuverlässige Antworten gegeben werden.</p>
 <p>Dennoch kann dieser Ansatz Zeit sparen, wenn man Code für Routineaufgaben generieren möchte. Darüber hinaus können die (manchmal auch falschen) Antworten Hinweise auf mögliche Lösungswege geben.</p>
-</div>
-<div id="rtutor" class="section level3 hasAnchor" number="7.1.2">
-<h3><span class="header-section-number">7.1.2</span> RTutor<a href="generieren-von-code.html#rtutor" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Alternativ zur Nutzung des allgemeinen Chatfenster über <a href="https://chat.openai.com/">chat.openai.com</a> kann auch eine auf R spezialisierte Seite <a href="http://rtutor.ai/">RTutor</a> genutzt werden.</p>
-<p>Der Service ermöglicht den Nutzenden, in normaler Sprache Ziele zu formulieren und R-Code als Ergebnis zu erhalten. Dieses kann an einem Musterdatensatz angewandt werden oder aber direkt auf einem durch die Nutzenden hochgeladenen Datensatz. Dieser Service ist hilfreich, um Lösungen bei der Entwicklung von R-Code zu finden und das Ergebnis gleich zu sehen. Auch hier gelingt es nach Erfahrung dieses Autors nicht immer, richtige Lösugnen zu generieren.</p>
-<p>Frage:
-Please generate R code. Hypothetical data gdp per capita in a fictional country. 1950-2022. Data should exhibit a positive trend and stochastic error. Create plot using ggplot showing a line plot and a loess smooth.</p>
+<p>Ein Beispiel:</p>
+<p>Frage:</p>
+<p>Please generate R code. Hypothetical data gdp per capita in a fictional country. 1950-2022. Data should exhibit a positive trend and stochastic error. Create plot using ggplot showing a line plot and a loess smooth.</p>
 <p>Antwort:</p>
 <blockquote>
 <p>Here is an example of R code that generates hypothetical data for GDP per capita in a fictional country from 1950 to 2022. The data includes a positive trend and random error. The code also creates a line plot and a loess smooth using ggplot:</p>
@@ -208,10 +203,15 @@ Please generate R code. Hypothetical data gdp per capita in a fictional country.
 <p>The resulting plot will show the trend of GDP per capita over time, with a line plot of the data and a loess smooth to show the underlying trend.</p>
 </blockquote>
 <p>Das Resultat sieht so aus:</p>
-<p><img src="Chatgpt-Sicherung_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<p>Ich habe für eine Verdeutlichung der Schwankungen die Standardabweichung von 0.2 auf 1.4 erhöht, sodass das Resultat nun so aussieht:</p>
-<p><img src="Chatgpt-Sicherung_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p><img src="Chatgpt_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>Wenn an für eine Verdeutlichung der Schwankungen die Standardabweichung von 0.2 auf 1.4 erhöht, sieht das Resultat dann so aus:</p>
+<p><img src="Chatgpt_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 <p>Das ist ganz brauchbar und kann weiter angepasst werden. Viel schneller lässt sich ein erster Entwurf vermutlich nicht generieren.</p>
+</div>
+<div id="rtutor" class="section level3 hasAnchor" number="7.1.2">
+<h3><span class="header-section-number">7.1.2</span> RTutor<a href="generieren-von-code.html#rtutor" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Alternativ zur Nutzung des allgemeinen Chatfenster über <a href="https://chat.openai.com/">chat.openai.com</a> kann auch eine auf R spezialisierte Seite <a href="http://rtutor.ai/">RTutor</a> genutzt werden.</p>
+<p>Der Service ermöglicht den Nutzenden, in normaler Sprache Ziele zu formulieren und R-Code als Ergebnis zu erhalten. Dieses kann an einem Musterdatensatz angewandt werden oder aber direkt auf einem durch die Nutzenden hochgeladenen Datensatz. Dieser Service ist hilfreich, um Lösungen bei der Entwicklung von R-Code zu finden und das Ergebnis gleich zu sehen. Auch hier gelingt es nach Erfahrung dieses Autors nicht immer, richtige Lösugnen zu generieren.</p>
 </div>
 </div>
 <div id="tikz" class="section level2 hasAnchor" number="7.2">
@@ -236,7 +236,7 @@ Please generate R code. Hypothetical data gdp per capita in a fictional country.
 <span id="cb2-9"><a href="generieren-von-code.html#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">\node</span>[draw, circle, inner sep=5mm] at (0,0) {Weiterer Knoten};</span>
 <span id="cb2-10"><a href="generieren-von-code.html#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-11"><a href="generieren-von-code.html#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">tikzpicture</span>}</span></code></pre></div>
-<p><img src="Chatgpt-Sicherung_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p><img src="Chatgpt_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 <p>Das ist ein recht brauchbares Ergebnis.</p>
 </div>
 </div>
