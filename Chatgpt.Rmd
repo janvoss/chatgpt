@@ -65,6 +65,8 @@ Daraus folgt, dass die (hypothetische) Bedienung eines Schreibautomaten, einer M
 
 Allerdings können KI-gestützte Chatbots die gewünschten Prozesse durchaus unterstützen, wenn sie gezielt eingesetzt werden. Im Folgenden wird versucht, mögliche Ansätze aufzuzeigen. 
 
+```{r echo=F, include=F, eval=F}
+
 # Was ist Chat GPT?
 
 Die Antwort der KI selbst: 
@@ -72,6 +74,8 @@ Die Antwort der KI selbst:
 > "ChatGPT ist ein maschinelles Sprachmodell, das von OpenAI entwickelt wurde. Es nutzt moderne künstliche Intelligenz und maschinelles Lernen, um auf menschliche Texteingaben zu antworten. ChatGPT wurde auf einer großen Menge an menschlicher Sprache trainiert und kann auf eine Vielzahl von Themen und Fragen antworten, darunter allgemeine Wissensfragen, Übersetzungen, Literaturrecherche und vieles mehr. Es wird häufig in Chatbots, digitalen Assistenten und anderen Anwendungen eingesetzt, um menschlichen Benutzern schnelle und präzise Antworten zu liefern."
 
 Aus der Sicht des Verfassers dieses Textes wirkt insbesondere der Aspekt Literaturrecherche in dieser Selbstbeschreibung (derzeit) übertrieben. 
+
+```
 
 # Recherche zu einem Thema, Einarbeitung
 
